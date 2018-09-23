@@ -1,51 +1,5 @@
-.infoBox{
-	position:relative;
-	color:#6e6362;
-	font-weight:bold;	
+.centered_large {
+    display: inline-block;
+    width: 100%; // Show 4 images in a row normally
+    height: auto;
 }
-
-.largeCentered {
-	font-size: 350%;	
-	text-align: center;
-	position: fixed; /* or absolute */
-	top: 75%;
-	/*left: 75%;*/
-	right: 75%;
-	/* bring your own prefixes */
-	transform: translate(+50%, -50%);
-}
-
-.centered {
-	font-size: 250%;	
-	text-align: center;
-	position: fixed; /* or absolute */
-	top: 50%;
-	left: 50%;
-	/* bring your own prefixes */
-	transform: translate(-50%, -50%);
-}
-
-#box_1 { 
-	position: absolute; 
-	top: 10px; 
-	right: 10px; 
-	bottom: 10px; 
-	left: 10px; 
-	background: #f1036a; 
-	z-index: -1;
-}
-
-#box_2 { 
-	position: absolute; 
-	top: 20px; 
-	right: 20px; 
-	bottom: 20px; 
-	left: 20px; 
-	background: #f5f9e9; 
-	z-index: -1;
-}
-
-
-/* #f1036a */
-/* #1d2021 */
-/* #6e6362 */
